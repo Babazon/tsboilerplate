@@ -12,9 +12,7 @@
     "tsc:watch": "tsc --noemit --watch",
     "tslint": "tslint --project . -t stylish",
     "tslint:watch": "nodemon -e ts,tsx -w src -w tslint.json -d 0.2 -w tsconfig.json -- node_modules/.bin/tslint --project . -t stylish",
-    "clearwatchman": "watchman watch-del-all && rm -rf node_modules/ && yarn cache clean && yarn && lsof -ti: 8081 | xargs kill && react-native start",
-    "postinstall:ignore_env": "git update-index --skip-worktree src/env.ts",
-    "postinstall:licenses": "node ./scripts/convert-licenses.js"
+    "clearwatchman": "watchman watch-del-all && rm -rf node_modules/ && yarn cache clean && yarn && lsof -ti: 8081 | xargs kill && react-native start"
   },
   "dependencies": {
     "axios": "^0.19.0",
