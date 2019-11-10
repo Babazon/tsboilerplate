@@ -1,0 +1,108 @@
+# ignore sourcemaps
+android-release.bundle
+android-release.bundle.map
+ios-release.bundle
+ios-release.bundle.map
+android-debug.bundle
+android-debug.bundle.map
+ios-debug.bundle
+ios-debug.bundle.map
+
+.env
+.locize
+
+# OSX
+ios/Index/DataStore
+.scannerwork
+test-report.xml
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+!debug.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+# Bundle artifact
+*.jsbundle
+
+# Not using npm anymore
+package-lock.json
+
+# Jest
+#
+.jest/
+coverage/
+
+# Secrets
+ApiSecrets.ts
+
+# Android builds
+*/app/release/*
+*/app/src/main/res/assets/*
+*/app/src/main/res/drawable-xxhdpi*
+*/app/src/main/res/drawable-xhdpi*
+*/app/src/main/res/drawable-mdpi*
+*/app/src/main/res/raw*
+*android/drawable-xxhdpi/*
+*android/drawable-xhdpi/*
+*android/drawable-mdpi/*
+*android/android-release.bundle
+*android/raw/*
+index.android.bundle
+
+# iOS builds
+/ios/Pods/Target Support Files/*
+
+# Google
+GoogleService-Info.plist
+google-services.json
+
+# include local node_modules
+!src/node_modules

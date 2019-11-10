@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "lib": [
+      "es5", "es6", "es7"
+    ],
+    "types": ["react", "jest", "react-native", "node"],
+    "typeRoots": ["src/typings", "./node_modules/@types"],
+    "module": "es6",
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "noEmit": true,
+    "target": "es6",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictNullChecks": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "src",
+    "shared"
+  ]
+}

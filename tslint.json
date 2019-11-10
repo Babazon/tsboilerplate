@@ -1,0 +1,47 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+    "tslint-react-native"
+  ],
+  "jsRules": {},
+  "rules": {
+    "no-unused-styles": true,
+    "quotemark": [
+      true,
+      "single",
+      "jsx-double"
+    ],
+    "no-consecutive-blank-lines": true,
+    "max-line-length": [
+      true,
+      {
+        "limit": 160,
+        "ignore-pattern": "^import |^export | implements "
+      }
+    ],
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "trailing-comma": false,
+    "one-line": false,
+    "member-ordering": false,
+    "no-var-requires": true,
+    "variable-name": [
+      true,
+      "allow-snake-case",
+      "allow-pascal-case"
+    ],
+    "typedef-whitespace": true,
+    "no-empty-interface": true,
+    "eofline": true,
+    "no-unused-expression": true
+  },
+  "rulesDirectory": [],
+  "linterOptions": {
+    "exclude": [
+      "**/*.test.ts",
+      "**/*.test.tsx",
+      "src/components/LicenceHTML.tsx"
+    ]
+  }
+}
