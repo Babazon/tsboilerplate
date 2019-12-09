@@ -34,6 +34,8 @@ target 'tsboilerplate' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
+  pod 'react-native-slider', :path => '../node_modules/@react-native-community/slider'
+
   target 'tsboilerplateTests' do
     inherit! :search_paths
     # Pods for testing
