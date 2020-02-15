@@ -54,7 +54,7 @@
     "babel-runtime": "^6.26.0",
     "datauri": "^2.0.0",
     "enzyme": "^3.10.0",
-    "enzyme-adapter-react-16": "^1.15.1",
+    "enzyme-adapter-react-16": "^1.15.2",
     "form-data": "^3.0.0",
     "husky": "^3.0.9",
     "jest": "24.9.0",
