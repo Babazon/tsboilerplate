@@ -40,7 +40,7 @@
     "@types/jest": "^25.1.2",
     "@types/node": "^12.12.6",
     "@types/react": "^16.9.11",
-    "@types/react-native": "^0.60.3",
+    "@types/react-native": "^0.61.16",
     "@welldone-software/why-did-you-render": "^4.0.4",
     "axios-mock-adapter": "^1.17.0",
     "babel-core": "^6.26.3",
