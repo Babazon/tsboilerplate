@@ -12,7 +12,8 @@
     "tsc:watch": "tsc --noemit --watch",
     "tslint": "tslint --project . -t stylish",
     "tslint:watch": "nodemon -e ts,tsx -w src -w tslint.json -d 0.2 -w tsconfig.json -- node_modules/.bin/tslint --project . -t stylish",
-    "clearwatchman": "watchman watch-del-all && rm -rf node_modules/ && yarn cache clean && yarn && lsof -ti: 8081 | xargs kill && react-native start"
+    "clearwatchman": "watchman watch-del-all && rm -rf node_modules/ && yarn cache clean && yarn && lsof -ti: 8081 | xargs kill && react-native start",
+    "postinstall": "cd ios && pod install"
   },
   "dependencies": {
     "axios": "^0.19.2",

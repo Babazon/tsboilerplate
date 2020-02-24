@@ -1,3 +1,5 @@
+[![Build status](https://build.appcenter.ms/v0.1/apps/a0fa5ad7-1471-4478-91a3-a1cea41979e2/branches/master/badge)](https://appcenter.ms)
+
 # Install node modules and pods
 
 `$ yarn`

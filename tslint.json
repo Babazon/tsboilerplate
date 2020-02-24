@@ -2,6 +2,8 @@
   "defaultSeverity": "error",
   "extends": [
     "tslint:recommended",
+    "tslint-clean-code",
+    "tslint-config-prettier",
     "tslint-react-native"
   ],
   "jsRules": {},
