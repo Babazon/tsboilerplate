@@ -1031,10 +1031,10 @@
     wcwidth "^1.0.1"
     ws "^1.1.0"
 
-"@react-native-community/cli@^4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@react-native-community/cli/-/cli-4.1.0.tgz#cca7d16fa76a4e6d5e06bb1e0964e301fa92f410"
-  integrity sha512-dZjlELM++jkm/dUPSG1kCC58EEdvmjrFeTPAtLxWmVDZ1cGsqcNjmb2qXhH0/9Ty5Pb3t3+l4oCXdyTyyjBGAQ==
+"@react-native-community/cli@^4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@react-native-community/cli/-/cli-4.1.1.tgz#9db4663aa97fc93f106c9ddc53f5256980015c2e"
+  integrity sha512-7dXeJBw1250pdvw9Ab+OigTTQpc+l+tr1vB/3u14EU/LzlJKACjlZd2wvZas00BA58qV6a9dFIX8/SGW9RicMA==
   dependencies:
     "@hapi/joi" "^15.0.3"
     "@react-native-community/cli-debugger-ui" "^3.0.0"
@@ -1047,7 +1047,6 @@
     connect "^3.6.5"
     cosmiconfig "^5.1.0"
     deepmerge "^3.2.0"
-    didyoumean "^1.2.1"
     envinfo "^7.1.0"
     errorhandler "^1.5.0"
     execa "^1.0.0"
@@ -1056,6 +1055,7 @@
     glob "^7.1.1"
     graceful-fs "^4.1.3"
     inquirer "^3.0.6"
+    leven "^3.1.0"
     lodash "^4.17.5"
     metro "^0.58.0"
     metro-config "^0.58.0"
