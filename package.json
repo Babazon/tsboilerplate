@@ -41,7 +41,7 @@
     "@types/node": "^13.7.4",
     "@types/react": "^16.9.11",
     "@types/react-native": "^0.61.16",
-    "@welldone-software/why-did-you-render": "^4.0.4",
+    "@welldone-software/why-did-you-render": "^4.0.5",
     "axios-mock-adapter": "^1.17.0",
     "babel-core": "^6.26.3",
     "babel-jest": "^24.9.0",
