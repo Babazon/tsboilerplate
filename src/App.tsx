@@ -49,7 +49,7 @@ const useAsync = (asyncFunction: () => Promise<SetStateAction<any>>, immediate: 
     setError(null);
     return asyncFunction()
       .then(response => setValue(response))
-      .catch(_ => setError(_))
+      .catch(err => setError(err))
       .finally(() => setPending(false));
   }, [asyncFunction]);
 
