@@ -61,7 +61,7 @@
     "react-dom": "^16.13.0",
     "react-native-rename": "^2.4.1",
     "react-native-typescript-transformer": "^1.2.13",
-    "react-test-renderer": "16.13.0",
+    "react-test-renderer": "16.13.1",
     "reflect-metadata": "^0.1.13",
     "regenerator-runtime": "^0.13.5",
     "ts-jest": "^25.4.0",
