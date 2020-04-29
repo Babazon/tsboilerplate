@@ -58,7 +58,7 @@
     "lint-staged": "^10.1.7",
     "metro-react-native-babel-preset": "^0.59.0",
     "nodemon": "^2.0.3",
-    "react-dom": "^16.13.0",
+    "react-dom": "^16.13.1",
     "react-native-rename": "^2.4.1",
     "react-native-typescript-transformer": "^1.2.13",
     "react-test-renderer": "16.13.1",
