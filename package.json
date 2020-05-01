@@ -51,7 +51,7 @@
     "enzyme-adapter-react-16": "^1.15.2",
     "form-data": "^3.0.0",
     "husky": "^4.2.5",
-    "jest": "25.1.0",
+    "jest": "25.5.3",
     "jest-enzyme": "^7.1.2",
     "jetifier": "^1.6.5",
     "jsdom": "^16.2.1",
