@@ -54,7 +54,7 @@
     "jest": "25.5.4",
     "jest-enzyme": "^7.1.2",
     "jetifier": "^1.6.6",
-    "jsdom": "^16.2.2",
+    "jsdom": "^16.4.0",
     "lint-staged": "^10.4.0",
     "metro-react-native-babel-preset": "^0.63.0",
     "nodemon": "^2.0.4",
